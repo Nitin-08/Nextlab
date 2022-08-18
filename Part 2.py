@@ -87,8 +87,8 @@ classifier.add(Dense(units=27,activation='relu'))
 classifier.add(Dense(units=15,activation='relu'))
 classifier.add(Dense(1,activation='sigmoid'))
 classifier.compile(optimizer='adam',loss='mean_squared_error',metrics=['accuracy'])
-model = classifier.fit(x_train,y_train,validation_split=0.33)
 
+model = classifier.fit(x_train,y_train,validation_split=0.33)
 
 y_pred = classifier.predict(x_test)
 
