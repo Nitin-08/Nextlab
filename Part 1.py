@@ -5,9 +5,3 @@ matches = pattern.finditer(txt)
 
 for match in matches :
     print(match)
-
-
-
-
-
-
